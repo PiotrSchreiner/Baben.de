@@ -1,0 +1,143 @@
+{
+    "Footer": {
+      "contactUsVia": "Kontaktieren Sie uns über:",
+      "imprint": "Impressum",
+      "dataprotection": "Datenschutz",
+      "conditions": "AGB"
+    },
+    "Header": {
+        "aboutUs": "About Us",
+        "imprint": "Impressum",
+        "advertiseWithBaben": "Werben mit Baben",
+        "contact": "Kontakt",
+        "partnerships": "Partnerschaften",
+        "menu": "Menü"
+    },
+    "History": {
+        "historyOfBabendererde": "GESCHICHTE VON BABEN",
+        "history": "Baben heißt oben. Wenn Sie mit Ihrem Produkt nach oben kommen wollen, oder oben bleiben wollen, dann kommen Sie zu uns! Unsere Agenturgruppe hat 3 Geschäftsfelder. Diese sind farbig gekennzeichnet, damit Sie sich in der folgenden Datenbank besser zurechtfinden. Bitte klicken Sie auf den gewünschten Farbbalken Logo. Die Informationen und Angebote drucken Sie sich beliebig aus.",
+        "swipe": "Swipe um unsere Geschichte zu erkunden"
+    },
+    "Impressum": {
+        "imprint": "Impressum",
+        "address": "Anschrift",
+        "phone": "Telefon",
+        "seo": "Geschäftsführer",
+        "location": "Sitz",
+        "vatIdNumber": "USt.ID-Nr",
+        "taxNumber": "St.-Nr.",
+        "legalForm:": "Rechtsform:",
+        "babenForm": "Die \"Baben\"-Werbung GmbH distanziert sich hiermit ausdrücklich von Inhalten anderer Internet-Präsenzen, die mittels Hyperlinks auf ihre Internetseite verweist bzw. von ihrer verlinkt wird. Für eine solche Verbindung wird keinerlei Haftung oder Garantie auf Inhalt und auf Gestaltung übernommen."
+    },
+    "Kontakt": {
+        "almostdone": "FAST GESCHAFFT",
+        "weNeedSomeInformationFromYou": "Wir benötigen nur noch einige Informationen.",
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "company": "Firma",
+        "phone": "Telefonnummer",
+        "message": "Nachricht",
+        "agb": "Hiermit stimmen Sie den<agb>AGB</agb>zu.",
+        "submit": "ABSENDEN"
+    },
+    "KontaktFormular": {
+        "advertisementWithBaben": "WERBEN MIT BABEN",
+        "questionAdvertisement": "Ich habe eine Frage zur Planung + Buchung von BABEN Produkten und Lösungen",
+        "rentalOffer":"STANDORT ANBIETEN & ANLIEGEN ZUM MIETVERHÄLTNIS",
+        "rentalQuestion": "Ich möchte mein Grundstück als Werbefläche anbieten oder habe eine Frage zu einem bestehenden Mietverhältnis",
+        "offerWebsite": "WEBSEITE ANBIETEN",
+        "iWantToMarketMyWebsite": "Ich möchte meine Website vermarkten",
+        "bills": "RECHNUNGEN",
+        "billQuestion": "Ich habe eine Frage zur einer Rechnung",
+        "reclamation": "REKLAMATION",
+        "defectAdvert": "Ich möchte einen defekten Werbeträger reklamieren",
+        "press": "PRESSE & SPONSORING",
+        "pressQuetion": "I have a question about the press, images or sponsorships",
+        "privacyPolicy": "DATENSCHUTZ",
+        "privacyQuestion": "Ich habe eine Frage zum Datenschutz",
+        "other": "SONSTIGES",
+        "otherQuestion": "I didn't find my request",
+        "contactForm": "KONTAKTFORMULAR",
+        "whatIsYourConcern": "Was ist ihr Anliegen",
+        "continue": "WEITER"
+    },
+    "KontaktRechnungen": {
+        "billsFrom": "RECHNUNGEN VON BABENEN",
+        "requestFrom": "I have a request about an bill from BABEN",
+        "billsTo": "RECHNUNGEN AN BABEN",
+        "requestTo": "Ich habe ein Anliegen zu einer Rechnung an BABEN",
+        "contactForm": "KONTAKTFORMULAR",
+        "whatIsYourConcern": "Was ist ihr Anliegen",
+        "continue": "WEITER"
+    },
+    "KontaktSonstiges": {
+        "other": "Sonstiges",
+        "message": "Message",
+        "reason": "Sagen Sie uns worum es Ihnen geht",
+        "title": "Titel",
+        "attachAFile": "Datei Anhängen",
+        "description": "Beschreibung",
+        "send": "ABSENDEN"
+    },
+    "KontaktStandort": {
+        "rentProperty": "MEIN GRUNDSTÜCK VERMIETEN",
+        "rentOwner": "Ich bin Eigentümer und möchte mein Grundstück als Werbefläche anbieten",
+        "tenacyQuestion": "FRAGE ZUM BESTEHENDEN MIETVERHÄLTNIS",
+        "contractQuestion": "Ich habe eine Frage zu einem bestehenden Vertrag",
+        "contactForm": "KONTAKTFORMULAR",
+        "whatIsYourRequest": "Was ist ihr Anliegen",
+        "continue": "WEITER"
+    },
+    "Kontaktstart": {
+        "contact": "KONTAKT",
+        "help": "Wie können wir Ihnen helfen?",
+        "contactForm": "KONTAKTFORMULAR",
+        "kontaktText": "Für jegliche Anfragen oder Anliegen bezüglich unserer Dienstleistungen stehen wir Ihnen gerne zur Verfügung. Bitte nutzen Sie unser Kontaktformular, um uns zu kontaktieren. Durch die Auswahl einer passenden Kategorie können wir Ihre Anfrage effizienter bearbeiten, und Sie erhalten umgehend eine Antwort von unserem Team",
+        "continue": "WEITER"
+    },
+    "KontaktSuccess": {
+        "thankRequest": "VIELEN DANK FÜR IHRE ANFRAGE",
+        "contactRequest": "Wir werden uns in Kürze bei Ihnen melden."
+    },
+    "KontaktWerben": {
+        "outdoorAdvertising": "AUSSENWERBUNG",
+         "questionAdvertisement": "Ich habe eine Frage zur Buchung von Außenwerbung",
+         "onlineAdvertising": "ONLINE WERBUNG & CROSSMEDIA",
+         "onlineQuestion": "Ich habe eine Frage zur Buchung von Online- und crossmedialen Angeboten",
+         "dialogMarketing": "DIALOGMARKETING",
+         "dialogQuestion": "Ich habe eine Frage zu Dienstleistungen im Dialogmarketing",
+         "contactForm": "KONTAKTFORMULAR",
+         "whatIsYourRequest": "Was ist ihr Anliegen",
+         "continue": "WEITER"
+    },
+    "Team": {
+        "ourTeam": "UNSER TEAM",
+        "ourAgency": "Unsere Agenturgruppe ist der perfekte Ort, um deine Leidenschaft für Werbung, Kreativität und Marketing zu entfalten. Wir lieben es, innovative Ideen zu entwickeln und gemeinsam Großes zu erreichen.",
+        "agencyGoals": "Wenn du auf der Suche nach einer aufregenden und dynamischen Umgebung bist, in der Kreativität, Teamwork und persönliche Entwicklung im Mittelpunkt stehen, dann bist du bei uns genau richtig.",
+        "teamPart": "Unser Team",
+        "applyNow": "DAS SIND WIR!"
+    },
+    "pricing": {
+        "outdoorAdvertising": "Aussenwerbung",
+        "geoTargeting": "Geo-Targeting für Werbekampgnen",
+        "seo": "SEO-Optimierung",
+        "content": "Content Strategien / Managment",
+        "e-commerce": "E-commerce Strategien",
+        "advertising": "Werbekampagnen-planung",
+        "targetGroupAnalysis": "Zielgruppenanalyse",
+        "requestOffer": "Angebot anfordern",
+        "planAndBook": "PLANEN & BUCHEN",
+        "planDescription" :"In unserem Planungs- und Buchungsbereich erhalten Sie umfassende Informationen über unsere Produktpalette und Marken. Ob Sie nach Mediadaten, Jahresplänen, Preisübersichten oder One-Pagern für Publisher suchen – hier finden Sie sämtliche Details für Ihre kommende Kampagne."
+    },
+    "DropDownMenu": {
+        "menu": "Menü",
+        "planAndBook":"PLANEN & BUCHEN",
+        "ourTeam": "UNSER TEAM",
+        "aboutUs": "ÜBER UNS",
+        "conditions": "ABG",
+        "dataProtection": "DATENSCHUTZ",
+        "imprint": "IMPRESSUM",
+        "contact": "KONTAKT"
+    }
+  }
+

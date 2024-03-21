@@ -1,0 +1,143 @@
+{
+    "Footer": {
+      "contactUsVia": "Contact us via:",
+      "imprint": "Imprint",
+      "dataprotection": "Data protection",
+      "conditions": "Conditions"
+    },
+    "Header": {
+        "aboutUs": "About Us",
+        "imprint": "Imprint",
+        "advertiseWithBaben": "Advertise with Baben",
+        "contact": "Contact",
+        "partnerships": "Partnerships",
+        "menu": "Menu"
+  },
+  "History": {
+    "historyOfBabendererde": "HISTORY OF BABENDERERDE",
+    "history": "Baben means above. If you come up with your product or want to stay at the top, then come to us! Our Agency group has 3 business areas. These are marked in color, so that you can find your way around the following database better. Please click on the desired color bar/logo. The information and You can print out offers as you wish.",
+    "swipe": "Swipe to explore our story"
+},
+"Impressum": {
+    "imprint": "Imprint",
+    "address": "Address",
+    "phone": "Phone",
+    "seo": "SEO",
+    "location": "Location",
+    "vatIdNumber": "VAT ID number",
+    "taxNumber": "Tax number",
+    "legalForm:": "Legal form:",
+    "babenForm": "“Baben”-werbung GmbH hereby expressly distances itself from the Content of other Internet presences that can be accessed via hyperlinks your website refers to or is linked from your website. For one such connection shall have no liability or guarantee on content and taken on design."
+},
+"Kontakt": {
+    "almostdone": "ALMOST DONE",
+    "weNeedSomeInformationFromYou": "We need some information from you",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "company": "Company",
+    "phone": "Phone",
+    "message": "Message",
+    "agb": "You hereby agree to our <agb>conditions</agb>.",
+    "submit": "SUBMIT"
+},
+"KontaktFormular": {
+    "advertisementWithBaben": "ADVERTISEMENT WITH BABEN",
+    "questionAdvertisement": "I have a question about planning + booking BABEN products and solutions",
+    "rentalOffer":"OFFER LOCATION & CONCERNS ABOUT RENTAL RATIO",
+    "rentalQuestion": "I would like to offer my property as advertising space or have a question about an existing rental agreement",
+    "offerWebsite": "OFFER WEBSITE",
+    "iWantMoMarketMyWebsite": "I want to market my website",
+    "bills": "BILLS",
+    "billQuestion": "I have a question about a bill",
+    "reclamation": "RECLAMATION",
+    "defectAdvert": "I would like to complain about a defective advertising medium",
+    "press": "PRESS & SPONSORSHIP",
+    "pressQuetion": "I have a question about the press, images or sponsorships",
+    "privacyPolicy": "PRIVACY POLICY",
+    "privacyQuestion": "I have a question about privacy policy",
+    "other": "OTHER",
+    "otherQuestion": "I didn't find my request",
+    "contactForm": "CONTACT FORM",
+    "whatIsYourConcern": "What is your request",
+    "continue": "CONTINUE"
+},
+"KontaktRechnungen": {
+    "billsFrom": "BILLS FROM BABEN",
+    "requestFrom": "I have a request about an bill from BABEN",
+    "billsTo": "BILLS TO BABEN",
+    "requestTo": "I have a request about an bill to BABEN",
+    "contactForm": "CONTACT FORM",
+    "continue": "CONTINUE"
+},
+"KontaktSonstiges": {
+    "other": "Other",
+    "message": "Message",
+    "reason": "Tell us what we can do for you",
+    "title": "Title",
+    "description": "Description",
+    "attachAFile": "Attach a file",
+    "send": "SEND"
+},
+"KontaktStandort": {
+    "rentProperty": "RENT OUT MY PROPERTY",
+    "rentOwner": "I am an owner and would like to offer my property as advertising space",
+    "tenacyQuestion": "QUESTION ABOUT THE EXISTING TENANCY",
+    "contractQuestion": "I have a question about an existing contract",
+    "contactForm": "CONTACT FORM",
+    "whatIsYourrequest": "What is your request",
+    "continue": "CONTINUE"
+},
+"Kontaktstart": {
+    "contact": "CONTACT",
+    "help": "How can we help?",
+    "contactForm": "CONTACT FORM",
+    "kontaktText": "For any inquiries or requests regarding our services, please do not hesitate to contact us. Please use our contact form to contact us. By by selecting an appropriate category, we can process your request more efficiently, and you will receive a prompt reply from ourfrom our team",
+    "continue": "CONTINUE"
+},
+"KontaktSuccess": {
+    "thankRequest": "THANK YOU FOR YOUR REQUEST",
+    "contactRequest": "We will contact you shortly to get in touch."
+},
+"KontaktWerben": {
+    "outdoorAdvertising": "OUTDOOR ADVERTISING",
+    "questionAdvertisement": "I have a question about booking outdoor advertising",
+    "onlineAdvertising": "ONLINE ADVERTISING & CROSSMEDIA",
+    "onlineQuestion": "I have a question about booking online and cross-media offers",
+    "dialogMarketing": "DIALOG MARKETING",
+    "dialogQuestion": "I have a question about dialog marketing services",
+    "contactForm": "CONTACT FORM",
+    "whatIsYourRequest": "What is your request",
+    "continue": "CONTINUE"
+},
+"Team": {
+    "ourTeam": "OUR TEAM",
+    "ourAgency": "Our agency group is the perfect place to pursue your passion for advertising, creativity and marketing. We love to develop innovative ideas and achieve great things together to reach.",
+    "agencyGoals": "If you are looking for an exciting and dynamic Environment where creativity, teamwork and personal If development is the focus, then you've come to the right place correct.",
+    "teamPart": "Become part of our team",
+    "applyNow": "Apply now!"
+},
+"pricing": {
+ "outdoorAdvertising": "Outdoor Advertising",
+ "geoTargeting": "Geo-targeting for Advertising Campaigns",
+ "seo": "SEO Optimization",
+ "content": "Content Strategies/Management",
+ "e-commerce": "E-commerce Strategies",
+ "advertising": "Advertising campaign planning",
+ "targetGroupAnalysis": "Target group analysis",
+ "requestOffer": "Request offer",
+ "planAndBook": "PLAN & BOOK",
+ "planDescription" :"Our planning and booking area provides you with comprehensive information about our product range and brands. Whether you are looking for media data, annual plans, price overviews or one-pagers for publishers - you will find all the details for your upcoming campaign here."
+
+},
+"DropDownMenu": {
+    "menu": "Menu",
+    "planAndBook":"PLAN & BOOK",
+    "ourTeam": "OUR TEAM",
+    "aboutUs": "ABOUT US",
+    "conditions": "CONDITIONS",
+    "dataProtection": "DATA PROTECTION",
+    "imprint": "IMPRINT",
+    "contact": "CONTACT US"
+}
+}
+  
