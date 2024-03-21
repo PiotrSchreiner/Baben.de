@@ -1,10 +1,5 @@
 "use client";
 
-import React from "react";
-import Lottie from "lottie-react";
-import AgbAnimation from "../agbAnim.json";
-import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
-
 function AGB() {
   return (
     <div className=" relative py-6 overflow-hidden ">
@@ -15,23 +10,6 @@ function AGB() {
               AGB
             </span>
           </h1>
-        </div>
-        <div style={{ width: "45%" }} className="mx-auto py-14">
-          <Lottie
-            className="w-200 h-200"
-            loop={true}
-            animationData={AgbAnimation}
-          />
-          <div
-            onClick={() =>
-              document
-                ?.getElementById("2")
-                ?.scrollIntoView({ behavior: "smooth" })
-            }
-            className="text-white bg-transparent hover:text-blue-300 mx-2 cursor-pointer flex object-center justify-center"
-          >
-            <KeyboardDoubleArrowDownIcon className="w-16 h-16" />
-          </div>
         </div>
         <div
           id="2"

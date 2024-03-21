@@ -1,10 +1,6 @@
 "use client";
 
 /* eslint-disable react/no-unescaped-entities */
-import React from "react";
-import Lottie from "lottie-react";
-import animation from "../animDatenschutz.json";
-import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
 
 function Datenschutz() {
   return (
@@ -15,23 +11,6 @@ function Datenschutz() {
             <h1 className="lg:mt-12 mt-36 block lg:text-5xl text-4xl text-center leading-8 font-extrabold tracking-tight text-gray-200 sm:text-5xl">
               <span>Datenschutzerklärung</span>
             </h1>
-          </div>
-          <div style={{ width: "44%" }} className="mx-auto py-14">
-            <Lottie
-              className="w-200 h-200"
-              loop={true}
-              animationData={animation}
-            />
-            <div
-              onClick={() =>
-                document
-                  ?.getElementById("1")
-                  ?.scrollIntoView({ behavior: "smooth" })
-              }
-              className="text-white bg-transparent hover:text-blue-300 mx-2 cursor-pointer flex object-center justify-center"
-            >
-              <KeyboardDoubleArrowDownIcon className="w-16 h-16 mt-4" />
-            </div>
           </div>
           <div
             id="1"
