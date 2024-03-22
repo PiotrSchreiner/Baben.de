@@ -24,9 +24,9 @@ export default function KontaktSonstiges({
   const [selected, setSelected] = useState(labels[0]);
 
   return (
-    <div className="bg-transparent md:mt-16 mx-auto lg:px-40 sm:px-8 max-w-7xl md:pb-16">
+    <div className="bg-transparent mx-auto lg:px-40 sm:px-8 max-w-7xl md:pb-16">
       <div className="relative">
-        <div className=" isolate px-8 md:py-16 sm:px-40 my-10">
+        <div className=" isolate px-8 sm:px-40 my-10">
           <div className="mx-auto max-w-xl text-center mb-8">
             <h2 className="lg:text-6xl tracking-widest flex justify-center text-white sm:text-5xl py-8">
               IHRE NACHRICHT

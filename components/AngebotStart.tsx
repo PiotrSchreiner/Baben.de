@@ -42,22 +42,15 @@ export default function AngebotStart({
   return (
     <div
       id="angebot"
-      className="bg-transparent mt-10 mx-auto lg:px-40 sm:px-8 max-w-7xl pb-32 "
+      className="bg-transparent mt-10 mx-auto lg:px-40 sm:px-8 max-w-7xl md:pb-20 "
     >
       <div className=" relative">
-        <div className=" relative isolate overflow-hidden px-8 py-14 sm:px-40 my-10">
+        <div className=" relative isolate overflow-hidden px-8 md:py-14 sm:px-40 my-10">
           <RadioGroup value={selected} onChange={setSelected}>
             <div className="mx-auto max-w-xl text-center mb-8">
               <h2 className="text-5xl lg:text-6xl tracking-widest text-white sm:text-5xl uppercase py-8">
                 Planen und Buchen
               </h2>
-              {/*   <div style={{ width: "75%" }} className="mx-auto">
-                <Lottie
-                  className="w-200 h-200 bg-transparent"
-                  loop={true}
-                  animationData={planAnimation}
-                />
-              </div> */}
               <p className="mt-2 text-2xl font-semibold tracking-wider leading-8 text-white ">
                 {t("whatIsYourConcern")}
               </p>
@@ -129,7 +122,7 @@ export default function AngebotStart({
                   onSubmit(selected);
                 }}
                 type="submit"
-                className="mt-10 block w-[380px] rounded-md bg-gradient-to-tr from-purple-800 to-blue-500 px-3.5 py-2.5 text-center text-2xl font-semibold text-white shadow-md shadow-black hover:text-blue-300 isolate tracking-widest"
+                className="mt-10 block md:w-[380px] rounded-md bg-gradient-to-tr from-purple-800 to-blue-500 px-3.5 py-2.5 text-center text-2xl font-semibold text-white shadow-md shadow-black hover:text-blue-300 isolate tracking-widest"
               >
                 {t("continue")}
               </button>

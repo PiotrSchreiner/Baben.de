@@ -40,7 +40,7 @@ export default function DropDownMenu() {
               </Link>
               <div className="relative  cursor-pointer">
                 <div className="group relative">
-                  <Link href="">
+                  <Link href="/">
                     <h1 className=" mr-5tracking-widest isolate font-extrabold text-7xl text-center text-white z-10  lg:my-0 my-5">
                       BABEN
                     </h1>

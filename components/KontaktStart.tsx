@@ -6,12 +6,12 @@ function KontaktStart({ onSubmit }: { onSubmit: () => void }) {
   const t = useTranslations("Kontaktstart");
 
   return (
-    <div className="bg-transparent md:mt-10 mx-auto lg:px-40 sm:px-8 max-w-7xl  md:pb-32">
+    <div className="bg-transparent mx-auto lg:px-40 sm:px-8 max-w-7xl  md:pb-20">
       <div className="py-4 lg:px-32 "></div>
 
       <div className="relative">
         <div className="isolate px-2 md:py-10 pb-10 md:pb-0 sm:py-22 lg:px-8 sm:rounded-3xl text-center">
-          <p className="font-raleway font-light text-white tracking-wider mx-4 text-3xl sm:text-5xl md:text-6xl text-left">
+          <p className="font-raleway font-light text-white tracking-wider mx-4 text-3xl sm:text-5xl md:text-6xl text-center">
             {t("contactForm")}
           </p>
           <div style={{ width: "35%" }} className="mx-auto">
@@ -22,7 +22,7 @@ function KontaktStart({ onSubmit }: { onSubmit: () => void }) {
             />
           </div>
           <div className="mt-8 text-center text-white">
-            <p className="tracking-wider text-lg sm:text-2xl px-6 md:px-20 text-center">
+            <p className="tracking-wider text-lg sm:text-2xl px-6 md:px-20 text-left">
               {t("kontaktText")}
             </p>
           </div>

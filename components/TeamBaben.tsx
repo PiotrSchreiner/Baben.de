@@ -202,11 +202,11 @@ function TeamBaben({ onSubmit }: { onSubmit: () => void }) {
               <CardContainer>
                 <CardItem>
                   <img
-                    className="mx-auto h-72 w-72 rounded-2xl md:h-80 md:w-80 shadow-blue-400 shadow-md"
+                    className="mx-auto h-72 w-72 rounded-2xl md:h-80 md:w-80 shadow-blue-400 shadow-lg hover:scale-105 transition-all"
                     src={person.imageUrl}
                     alt=""
                   />
-                  <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-white">
+                  <h3 className="mt-12 font-semibold leading-7 tracking-wider text-white text-2xl">
                     {person.name}
                   </h3>
                   <p className="text-sm leading-6 text-gray-100 mt-6">

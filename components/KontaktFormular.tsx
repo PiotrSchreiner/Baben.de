@@ -62,9 +62,9 @@ export default function Kontakt({
   const [selected, setSelected] = useState(settings[0]);
 
   return (
-    <div className="md:mt-16 mx-auto lg:px-40 sm:px-8 max-w-7xl md:pb-12">
+    <div className="mx-auto lg:px-40 sm:px-8 max-w-7xl md:pb-12">
       <div className=" relative">
-        <div className=" relative isolate overflow-hidden px-8 md:py-10 sm:px-40 md:my-10">
+        <div className=" relative isolate overflow-hidden px-8  sm:px-40 ">
           <RadioGroup value={selected} onChange={setSelected}>
             <div className="mx-auto max-w-xl text-center mb-8">
               <h2 className="text-3xl lg:text-6xl tracking-widest justify-center flex font-raleway text-white sm:text-5xl py-8">

@@ -8,7 +8,7 @@ function KontaktSuccsess() {
   const { width, height } = useWindowSize();
   return (
     <div className="bg-transparent ">
-      <div className="relative mx-auto max-w-7xl px-8 sm:px-6 lg:px-60 sm:py-42 md:py-32">
+      <div className="relative mx-auto max-w-7xl px-8 sm:px-6 lg:px-60 sm:py-42 md:py-32 py-6">
         <div className="relative w-full">
           <div className="relative isolate overflow-hidden bg-black/50 px-4 py-14 rounded-3xl sm:px-20 pt-24 my-10 shadow-lg shadow-blue-400">
             <Confetti width={width} height={height} />

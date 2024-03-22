@@ -51,7 +51,7 @@ export default function History() {
           </div>
           <div className="mt-20 text-2xl tracking-wide text-white text-center px-4 sm:px-44 ">
             {isshowing ? (
-              <p className="bg-gradient-to-tr from-purple-800 to-blue-500 rounded-3xl mx-auto md:mx-80 p-4 md:p-12 tracking-wider leading-8 text-xl shadow-lg shadow-blue-400 text-left">
+              <p className="bg-gradient-to-tr from-purple-800 to-blue-500 rounded-3xl mx-auto md:mx-56 p-4 md:p-12 tracking-wider leading-8 text-xl shadow-lg shadow-blue-400 text-left">
                 {t("history")}
               </p>
             ) : null}

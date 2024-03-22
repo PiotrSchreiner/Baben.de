@@ -47,7 +47,7 @@ export default function Kontakt({
 
   return (
     <div id="kontakt" className="bg-black/50">
-      <div className="bg-transparent md:mt-16 mx-auto lg:px-40 sm:px-8 max-w-7xl md:pb-32">
+      <div className="bg-transparent mx-auto lg:px-40 sm:px-8 max-w-7xl md:pb-20">
         <div className="mx-auto max-w-xl text-center mb-8">
           <h2 className="text-4xl lg:text-6xl justify-center flex tracking-widest text-white sm:text-5xl py-8">
             {t("almostdone")}

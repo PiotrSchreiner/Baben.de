@@ -51,26 +51,16 @@ export default function MarketingCommunikation({
   return (
     <div
       id="marketing"
-      className="bg-transparent mt-10 mx-auto lg:px-40 sm:px-8 max-w-7xl  pb-32"
+      className="bg-transparent mt-10 mx-auto lg:px-40 sm:px-8 max-w-7xl  md:pb-20"
     >
       <div className=" relative">
-        <div className=" relative isolate overflow-hidden px-8 py-14 sm:px-40 my-10">
+        <div className=" relative isolate overflow-hidden px-8 md:py-14 sm:px-40 my-10">
           <RadioGroup value={selected} onChange={setSelected}>
             <div className="mx-auto max-w-xl text-center mb-8">
-              <h2 className="text-5xl lg:text-6xl flex justify-center tracking-widest text-white sm:text-5xl uppercase py-8">
+              <h2 className="text-4xl lg:text-6xl flex justify-center tracking-widest text-white sm:text-5xl uppercase py-8">
                 Marketing Kommunikation
               </h2>
-              {/*  <div
-                style={{ width: "45%", transform: "rotate(45deg)" }}
-                className="mx-auto"
-              >
-                <Lottie
-                  className="w-200 h-200"
-                  loop={true}
-                  animationData={Rocket}
-                />
-              </div> */}
-              <p className="text-2xl font-semibold leading-8 text-white py-8">
+              <p className="text-2xl font-semibold leading-8 text-white">
                 {t("whatIsYourConcern")}
               </p>
             </div>
@@ -135,14 +125,12 @@ export default function MarketingCommunikation({
           </RadioGroup>
           <div className="flex justify-center">
             <div className="relative group">
-              {/*               <div className="absolute bg-blue-500 rounded-md top-0 left-0 right-0 w-full h-[50px]  px-3 leading-6 block mt-10 opacity-0 group-hover:opacity-100 transition-opacity blur-xl  " />
-               */}{" "}
               <button
                 onClick={() => {
                   onSubmit(selected.name);
                 }}
                 type="submit"
-                className="mt-10 block w-[380px] rounded-md bg-gradient-to-tr from-purple-800 to-blue-500 px-3.5 py-2.5 text-center text-2xl font-semibold text-white shadow-md shadow-black hover:text-blue-300 isolate tracking-widest"
+                className="mt-10 block md:w-[380px] rounded-md bg-gradient-to-tr from-purple-800 to-blue-500 px-3.5 py-2.5 text-center text-2xl font-semibold text-white shadow-md shadow-black hover:text-blue-300 isolate tracking-widest"
               >
                 {t("continue")}
               </button>

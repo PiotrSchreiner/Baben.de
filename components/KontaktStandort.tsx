@@ -32,9 +32,9 @@ export default function KontaktStandort({
   const [selected, setSelected] = useState(settings[0]);
 
   return (
-    <div className="bg-transparent mt-16 mx-auto lg:px-40 sm:px-8 max-w-7xl md:pb-32">
+    <div className="bg-transparent mx-auto lg:px-40 sm:px-8 max-w-7xl md:pb-20">
       <div className="relative">
-        <div className=" relative isolate overflow-hidden px-8 md:py-14 sm:px-40 my-10">
+        <div className=" relative isolate overflow-hidden px-8 md:pb-14 sm:px-40 my-10">
           <RadioGroup value={selected} onChange={setSelected}>
             <div className="mx-auto max-w-xl text-center mb-8">
               <h2 className="text-3xl lg:text-6xl justify-center flex tracking-widest text-white sm:text-5xl py-8">
