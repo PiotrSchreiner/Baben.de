@@ -1,10 +1,9 @@
 import TeamBaben from "@/components/TeamBaben";
-import React from "react";
 
 function page() {
   return (
     <div>
-      <TeamBaben />
+      <TeamBaben onSubmit={console.log} />
     </div>
   );
 }
