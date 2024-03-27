@@ -5,7 +5,6 @@ import React, { useEffect, useState } from "react";
 
 export const SlideShowAlternative = ({
   images,
-  children,
   overlay = true,
   overlayClassName,
   className,
@@ -13,7 +12,6 @@ export const SlideShowAlternative = ({
   direction = "up",
 }: {
   images: { url: string; text: string }[];
-  children: React.ReactNode;
   overlay?: React.ReactNode;
   overlayClassName?: string;
   className?: string;
@@ -22,7 +20,7 @@ export const SlideShowAlternative = ({
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(false);
-  const [loadedImages, setLoadedImages] = useState<string[]>([]);
+  const [loadedImages, setLoadedImages] = useState([]);
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) =>
@@ -53,7 +51,7 @@ export const SlideShowAlternative = ({
 
     Promise.all(loadPromises)
       .then((loadedImages) => {
-        setLoadedImages(loadedImages as string[]);
+        setLoadedImages(loadedImages);
         setLoading(false);
       })
       .catch((error) => console.error("Failed to load images", error));
@@ -69,7 +67,6 @@ export const SlideShowAlternative = ({
 
     window.addEventListener("keydown", handleKeyDown);
 
-    // autoplay
     let interval: any;
     if (autoplay) {
       interval = setInterval(() => {
@@ -115,38 +112,42 @@ export const SlideShowAlternative = ({
   };
 
   const areImagesLoaded = loadedImages.length > 0;
-
+  console.log(loadedImages);
   return (
     <div
       className={cn(
-        "overflow-hidden h-[400px] md:h-[830px] w-full relative flex items-center justify-center ",
+        "overflow-hidden h-[calc(100dvh-240px)] md:h-[calc(100dvh-150px)] w-full relative flex items-center justify-center md:border-8 border-purple-800",
         className
       )}
       style={{
         perspective: "1000px",
       }}
     >
-      {areImagesLoaded && children}
       {areImagesLoaded && overlay && (
         <div
-          className={cn("absolute inset-0 bg-black/70 z-40", overlayClassName)}
+          className={cn("absolute inset-0 bg-black/50 z-40", overlayClassName)}
         />
       )}
 
       {areImagesLoaded && (
         <AnimatePresence>
-          {images.map((image: { url: string; text: string }, index: number) => (
-            <motion.img
-              key={index}
-              alt="slideShowImage"
-              src={loadedImages[index]}
-              initial="initial"
-              animate="visible"
-              exit={direction === "up" ? "upExit" : "downExit"}
-              variants={slideVariants}
-              className="image h-full w-full absolute inset-0 object-cover object-center"
-            />
-          ))}
+          <div
+            className={cn(
+              "absolute inset-0 text-center my-44 md:my-96 text-2xl md:text-7xl uppercase font-raleway font-light tracking-widest z-40  cursor-pointer hover:scale-110"
+            )}
+          >
+            {loadedImages[currentIndex].text}
+          </div>
+          <motion.img
+            key={currentIndex}
+            alt="slideShowImage"
+            src={loadedImages[currentIndex].url}
+            initial="initial"
+            animate="visible"
+            exit={direction === "up" ? "upExit" : "downExit"}
+            variants={slideVariants}
+            className="image h-full w-full absolute inset-0 object-cover object-center"
+          />
         </AnimatePresence>
       )}
     </div>

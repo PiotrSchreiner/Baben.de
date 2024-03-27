@@ -30,7 +30,7 @@ export default function DropDownMenu() {
 
       {isOpen && (
         <div
-          className="fixed w-screen top-0 flex flex-col z-50 h-screen bg-gradient-to-tr from-purple-800 to-blue-500 text-3xl md:text-6xl text-darkgreen-500 dark:text-custom-200 uppercase tracking-widest transition-all duration-500 ease-in-out right-0 opacity-100"
+          className="fixed w-screen top-0 flex flex-col z-50 h-screen bg-gradient-to-tr from-purple-800 to-blue-800 text-3xl md:text-6xl text-darkgreen-500 dark:text-custom-200 uppercase tracking-widest transition-all duration-500 ease-in-out right-0 opacity-100"
           ref={ref}
         >
           <div className="max-w-screen-2xl mx-auto  w-full pt-6 md:pt-16 grid grid-cols-12 gap-6 md:gap-16  transition-all duration-500">

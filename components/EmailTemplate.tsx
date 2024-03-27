@@ -7,14 +7,6 @@ interface EmailTemplateProps {
   email: string;
   phone: string;
   message: string;
-  outOfHome: string;
-  webDev: string;
-  markComun: string;
-  rechnungen: string;
-  standort: string;
-  formular: string;
-  sonstiges: string;
-  werben: string;
 }
 
 export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({
@@ -24,14 +16,6 @@ export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({
   email,
   phone,
   message,
-  outOfHome,
-  webDev,
-  markComun,
-  rechnungen,
-  standort,
-  formular,
-  sonstiges,
-  werben,
 }) => (
   <div className="bg-black/50 p-20">
     <div className="max-w-2xl mx-auto bg-black/50 rounded-lg">
@@ -40,15 +24,7 @@ export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({
       </div>
       <div className="p-4">
         <h2 className="text-xl mb-4 font-bold text-green-600">
-          Betreff:{" "}
-          {outOfHome ||
-            webDev ||
-            markComun ||
-            rechnungen ||
-            standort ||
-            formular ||
-            sonstiges ||
-            werben}
+          Kontaktformular
         </h2>
         <p className="text-lg mb-4 px-4">{message}</p>
 

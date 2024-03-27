@@ -219,7 +219,7 @@ export function Hero({ className }) {
         </div>
       </div>
       <div className="isolate overflow-hidden py-4 md:py-8">
-        <div className="mx-auto grid grid-cols-1 lg:max-w-7xl lg:grid-cols-2 xl:grid-cols-3">
+        <div className="mx-auto grid grid-cols-1 lg:max-w-7xl lg:grid-cols-2 xl:grid-cols-3 ">
           {tiers.map((tier, idx) => (
             <div
               key={tier.name}
@@ -230,7 +230,7 @@ export function Hero({ className }) {
               <AnimatePresence>
                 {hoveredIndex === idx && (
                   <motion.span
-                    className="absolute inset-0 h-full w-full bg-gradient-to-tr from-blue-300 via-blue-500 to-blue-700 block rounded-[32px]"
+                    className="absolute inset-0 h-full w-full bg-gradient-to-tr from-blue-300 via-blue-500 to-blue-700 block rounded-[32px] "
                     layoutId="hoverBackground"
                     initial={{ opacity: 0 }}
                     animate={{
@@ -246,7 +246,7 @@ export function Hero({ className }) {
               </AnimatePresence>
               <div
                 div
-                className="flex flex-col justify-between h-full rounded-3xl bg-gradient-to-tr from-purple-800 to-blue-500 sm:p-10 p-6 relative border border-transparent z-20"
+                className="flex flex-col justify-between h-full rounded-3xl bg-gradient-to-tr from-purple-800 to-blue-500 sm:p-10 p-6 relative z-20 border-purple-600 border shadow-lg shadow-blue-400"
               >
                 <div className="flex items-baseline gap-x-2 ">
                   <h2

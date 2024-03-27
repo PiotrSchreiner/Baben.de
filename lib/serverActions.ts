@@ -11,14 +11,6 @@ export const sendEmail = async (values: {
   company: string;
   phone: string;
   message: string;
-  formular: string;
-  werben: string;
-  rechnungen: string;
-  standort: string;
-  sonstiges: string;
-  outOfHome: string;
-  webDev: string;
-  markComun: string;
 }) => {
   const data = await resend.emails.send({
     from: "onboarding@resend.dev",
@@ -32,14 +24,6 @@ export const sendEmail = async (values: {
       company: values.company,
       phone: values.phone,
       message: values.message,
-      outOfHome: values.outOfHome,
-      webDev: values.webDev,
-      markComun: values.markComun,
-      werben: values.werben,
-      rechnungen: values.rechnungen,
-      standort: values.standort,
-      formular: values.formular,
-      sonstiges: values.sonstiges,
     }),
     text: "",
   });

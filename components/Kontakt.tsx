@@ -57,7 +57,7 @@ export default function Kontakt({
           </p>
         </div>
         <div className="relative">
-          <div className="isolate px-6 py-6 sm:py-22 lg:px-8 sm:rounded-3xl max-w-lg z-10 m-auto">
+          <div className="isolate px-6 py-6 sm:py-22 lg:px-8 sm:rounded-3xl max-w-lg z-10 m-auto border-purple-600 border shadow-lg shadow-blue-400">
             <form
               className="mx-auto max-w-xl"
               action={async (formData) => {
@@ -71,7 +71,7 @@ export default function Kontakt({
                 });
               }}
             >
-              <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2 tracking-wider">
+              <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2 tracking-wider ">
                 <div>
                   <label
                     htmlFor="first-name"

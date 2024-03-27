@@ -60,7 +60,7 @@ export default async function RootLayout({
           <span></span>
           <span></span>
         </div>
-        <div className="min-h-screen relative bg-black/40">
+        <div className="min-h-screen relative bg-black/60">
           <NextIntlClientProvider messages={messages} locale={locale}>
             <HeaderAlternative locale={locale} />
             <main>{children}</main>
