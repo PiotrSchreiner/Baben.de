@@ -112,11 +112,10 @@ export const SlideShowAlternative = ({
   };
 
   const areImagesLoaded = loadedImages.length > 0;
-  console.log(loadedImages);
   return (
     <div
       className={cn(
-        "overflow-hidden h-[calc(100dvh-240px)] md:h-[calc(100dvh-150px)] w-full relative flex items-center justify-center shadow-md shadow-blue-400",
+        "overflow-hidden h-[calc(100dvh-316px)] md:h-[calc(100dvh-176px)] w-full relative flex items-center justify-center shadow-md shadow-blue-400",
         className
       )}
       style={{
@@ -133,7 +132,7 @@ export const SlideShowAlternative = ({
         <AnimatePresence>
           <div
             className={cn(
-              "absolute inset-0 text-center my-44 md:my-96 text-2xl md:text-7xl uppercase font-raleway font-semibold tracking-widest z-40  cursor-pointer hover:scale-110 hover:text-purple-800 hover:blur-sm"
+              "absolute inset-0 text-center my-36 md:my-80 text-2xl md:text-7xl uppercase font-raleway font-semibold tracking-widest z-40  cursor-pointer hover:scale-110"
             )}
           >
             {loadedImages[currentIndex].text}

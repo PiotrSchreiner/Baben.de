@@ -207,7 +207,7 @@ export function Hero({ className }) {
       className={`${className} flex flex-col items-center mx-auto text-darkgreen-500 rounded-3xl`}
     >
       <div className="flex items-center justify-center pb-6 md:pb-12">
-        <div className="font-raleway font-light text-center text-white dark:text-custom-200 tracking-wider text-4xl sm:text-5xl md:text-6xl md:pt-16 mx-12">
+        <div className="font-raleway font-light text-center text-white dark:text-custom-200 tracking-wider text-4xl sm:text-5xl md:text-6xl md:pt-16 pt-6 mx-12">
           <TypeAnimation
             sequence={["PLANEN UND BUCHEN", 1000]}
             wrapper="span"
@@ -223,7 +223,7 @@ export function Hero({ className }) {
           {tiers.map((tier, idx) => (
             <div
               key={tier.name}
-              className="relative group p-2"
+              className="relative group p-4 md:p-2"
               onMouseEnter={() => setHoveredIndex(idx)}
               onMouseLeave={() => setHoveredIndex(null)}
             >
@@ -246,7 +246,7 @@ export function Hero({ className }) {
               </AnimatePresence>
               <div
                 div
-                className="flex flex-col justify-between h-full rounded-3xl bg-gradient-to-tr from-purple-800 to-blue-500 sm:p-10 p-6 relative z-20 border-purple-600 border shadow-lg shadow-blue-400"
+                className="flex flex-col justify-between h-full rounded-3xl bg-gradient-to-tr from-purple-800 to-blue-500 sm:p-10 p-6 relative z-20 border-white border shadow-lg shadow-blue-400"
               >
                 <div className="flex items-baseline gap-x-4 gap-y-8 ">
                   <h2

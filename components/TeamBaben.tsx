@@ -206,7 +206,7 @@ function TeamBaben({ onSubmit }: { onSubmit: () => void }) {
           {people.map((person) => (
             <li
               key={person.name}
-              className="rounded-2xl bg-black/70 px-8 py-2 border-purple-600 border"
+              className="rounded-2xl bg-black/70 px-8 py-2 border-white border"
             >
               <CardContainer>
                 <CardItem>

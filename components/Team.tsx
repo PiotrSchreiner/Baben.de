@@ -78,7 +78,7 @@ export default function Team() {
                 initial="hidden"
                 animate={controls}
                 variants={fadeInFromLeft}
-                className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8 bg-gradient-to-tr from-purple-800 to-blue-500 rounded-3xl mt-10 border-transparent border-purple-600 border shadow-lg shadow-blue-400"
+                className="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8 bg-gradient-to-tr from-purple-800 to-blue-500 rounded-3xl mt-10 border-white border shadow-lg shadow-blue-400"
               >
                 <div className="my-10 text-3xl sm:text-4xl font-raleway font-light text-center text-white dark:text-custom-200 tracking-widest mx-4 ">
                   <h2>{t("applyNow")}</h2>
@@ -93,7 +93,7 @@ export default function Team() {
                   <div className="relative group">
                     <button
                       onClick={() => router.push("/teambaben")}
-                      className="isolate rounded-md bg-purple-600 px-3.5 py-2.5  text-2xl tracking-wider uppercase text-white shadow-md shadow-black text-center hover:text-blue-300 z-10"
+                      className="isolate rounded-md bg-purple-600 px-3.5 py-2.5  text-2xl tracking-wider uppercase text-white shadow-md shadow-black text-center hover:text-blue-300 z-10 "
                     >
                       {t("teamPart")}
                     </button>
@@ -106,7 +106,7 @@ export default function Team() {
                   initial="hidden"
                   animate={controls}
                   variants={fadeInFromRight}
-                  className="flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end mb-40 shadow-lg shadow-blue-400 rounded-2xl border-purple-600 border"
+                  className="flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end mb-40 shadow-lg shadow-blue-400 rounded-2xl border-white border"
                 >
                   <Image
                     src="https://images.unsplash.com/photo-1670272502246-768d249768ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&q=80"
@@ -127,7 +127,7 @@ export default function Team() {
                     <Image
                       src="https://images.unsplash.com/photo-1605656816944-971cd5c1407f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
                       alt="Our team2"
-                      className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl asbg-gray-50 object-cover mt-20 shadow-lg shadow-blue-400 border-purple-600 border "
+                      className="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl asbg-gray-50 object-cover mt-20 shadow-lg shadow-blue-400 border-white border "
                       width={768}
                       height={604}
                     />
@@ -142,7 +142,7 @@ export default function Team() {
                     <Image
                       src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&h=842&q=80"
                       alt="Our team3"
-                      className="aspect-[7/5] w-[30rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover mt-20 shadow-lg shadow-blue-400 border-purple-600 border"
+                      className="aspect-[7/5] w-[30rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover mt-20 shadow-lg shadow-blue-400 border-white border"
                       width={1152}
                       height={842}
                     />
@@ -157,7 +157,7 @@ export default function Team() {
                     <Image
                       src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
                       alt="Our team4"
-                      className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover mb-40 shadow-lg shadow-blue-400 border-purple-600 border"
+                      className="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover mb-40 shadow-lg shadow-blue-400 border-white border"
                       width={768}
                       height={604}
                     />

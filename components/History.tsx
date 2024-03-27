@@ -32,7 +32,7 @@ export default function History() {
       <div className="relative">
         <div
           id="history"
-          className="relative isolate overflow-hidden py-8 rounded-3xl"
+          className="relative isolate overflow-hidden py-4 rounded-3xl"
         >
           <div
             ref={ref}
@@ -49,9 +49,9 @@ export default function History() {
               />
             ) : null}
           </div>
-          <div className="mt-20 text-2xl tracking-wide text-white text-center px-4 sm:px-44 ">
+          <div className="mt-14 text-2xl tracking-wide text-white text-center px-4 sm:px-44 ">
             {isshowing ? (
-              <p className="bg-gradient-to-tr from-purple-800 to-blue-500 rounded-3xl mx-auto md:mx-56 p-4 md:p-12 tracking-wider leading-8 text-xl shadow-lg shadow-blue-400 text-left [word-break:break-word] hyphens-auto border border-purple-600 ">
+              <p className="bg-gradient-to-tr from-purple-800 to-blue-500 rounded-3xl mx-auto md:mx-56 p-4 md:p-12 tracking-wider leading-8 text-xl shadow-lg shadow-blue-400 text-left [word-break:break-word] hyphens-auto border border-white">
                 {t("history")}
               </p>
             ) : null}
@@ -79,7 +79,7 @@ export default function History() {
               <KeyboardDoubleArrowDownIcon className="w-16 h-16 mt-10" />
             </div>
           </div>
-          <div className=" md:w-[800px] md:h-full w-[320px] h-[160px] md:my-20 my-12  rounded-3xl justify-center  items-center mx-auto shadow-lg shadow-blue-400 border-purple-600 border">
+          <div className=" md:w-[800px] md:h-full w-[320px] h-[160px] md:my-20 my-12  rounded-3xl justify-center  items-center mx-auto shadow-lg shadow-blue-400 border-white border">
             <Swiper
               id="swiper"
               rel="swiper"
