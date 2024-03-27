@@ -29,10 +29,11 @@ export default function Example({ locale }: { locale: string }) {
         </div>
         <div className="relative  cursor-pointer">
           <div className="group relative">
-            <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600 to-blue-600 rounded-md blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse "></div>
+            {/*             <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600 to-blue-600 rounded-md blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse "></div>
+             */}{" "}
             <Link href="/" locale={locale}>
-              <h1 className="tracking-widest isolate font-extrabold text-7xl text-center text-white z-10 lg:my-0 my-5 textShadow">
-                BABEN
+              <h1 className="tracking-widest isolate font-extrabold text-7xl text-center text-white z-10 lg:my-0 my-5 textShadow border-4 border-white rounded-lg p-2 pr-1">
+                BABEN MEDIA
               </h1>
             </Link>
           </div>

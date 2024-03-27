@@ -133,7 +133,7 @@ export const SlideShowAlternative = ({
         <AnimatePresence>
           <div
             className={cn(
-              "absolute inset-0 text-center my-44 md:my-96 text-2xl md:text-7xl uppercase font-raleway font-semibold tracking-widest z-40  cursor-pointer hover:scale-110"
+              "absolute inset-0 text-center my-44 md:my-96 text-2xl md:text-7xl uppercase font-raleway font-semibold tracking-widest z-40  cursor-pointer hover:scale-110 hover:text-purple-800 hover:blur-sm"
             )}
           >
             {loadedImages[currentIndex].text}
