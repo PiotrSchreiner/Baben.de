@@ -57,7 +57,7 @@ export default function Kontakt({
           </p>
         </div>
         <div className="relative">
-          <div className="isolate px-6 py-6 sm:py-22 lg:px-8 sm:rounded-3xl max-w-lg z-10 m-auto border-purple-600 border shadow-lg shadow-blue-400">
+          <div className="isolate px-6 py-6 sm:py-22 lg:px-8 rounded-3xl max-w-lg z-10 m-auto border-purple-600 border shadow-lg shadow-blue-400">
             <form
               className="mx-auto max-w-xl"
               action={async (formData) => {

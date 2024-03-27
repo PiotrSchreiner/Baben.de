@@ -21,7 +21,7 @@ export default function DropDownMenu() {
         onClick={() => {
           setIsOpen(!isOpen);
         }}
-        className="group text-white inline-flex p-4 items-center gap-x-3 text-2xl font-semibold leading-3 hover:text-blue-300 relative w-32 h-12 bg-gradient-to-tr from-purple-800 to-blue-500 rounded-md shadow-md shadow-black"
+        className="group text-white inline-flex p-4 items-center gap-x-3 text-2xl font-semibold leading-3 hover:text-blue-300 relative w-32 h-12 bg-gradient-to-tr from-purple-800 to-blue-500 rounded-md shadow-md shadow-blue-400"
       >
         <div className="absolute top-0 left-0 w-32 h-12 bg-blue-700 rounded-sm blur-lg opacity-0 group-hover:opacity-100 transition-opacity -z-10" />
         <span>Menu</span>

@@ -218,7 +218,7 @@ export function Hero({ className }) {
           />
         </div>
       </div>
-      <div className="isolate overflow-hidden py-4 md:py-8">
+      <div className="isolate overflow-hidden py-4">
         <div className="mx-auto grid grid-cols-1 lg:max-w-7xl lg:grid-cols-2 xl:grid-cols-3 ">
           {tiers.map((tier, idx) => (
             <div
@@ -248,7 +248,7 @@ export function Hero({ className }) {
                 div
                 className="flex flex-col justify-between h-full rounded-3xl bg-gradient-to-tr from-purple-800 to-blue-500 sm:p-10 p-6 relative z-20 border-purple-600 border shadow-lg shadow-blue-400"
               >
-                <div className="flex items-baseline gap-x-2 ">
+                <div className="flex items-baseline gap-x-4 gap-y-8 ">
                   <h2
                     className="text-2xl md:text-5xl tracking-tight text-gray-50 font-raleway [word-break:break-word] hyphens-auto"
                     dangerouslySetInnerHTML={{ __html: tier.name }}

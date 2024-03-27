@@ -48,7 +48,7 @@ export default function Example({ locale }: { locale: string }) {
                 locale: locale === "de" ? "en" : "de",
               });
             }}
-            className="relative group text-white hover:text-blue-300 cursor-pointer text-center w-32 h-12 bg-gradient-to-tr from-purple-800 to-blue-500 rounded-md shadow-md shadow-black"
+            className="relative group text-white hover:text-blue-300 cursor-pointer text-center w-32 h-12 bg-gradient-to-tr from-purple-800 to-blue-500 rounded-md shadow-md shadow-blue-400"
           >
             <div className="absolute top-0 left-0 w-32 h-12 bg-blue-700 rounded-sm blur-lg opacity-0 group-hover:opacity-100 transition-opacity flex -z-10 ring-1 ring-purple-800" />
             {locale === "de" ? "EN" : "DE"}

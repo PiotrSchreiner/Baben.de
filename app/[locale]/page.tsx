@@ -33,7 +33,7 @@ function Home() {
         ]}
         autoplay
       />
-      <main className="py-10 lg:py-18 px-2 relative">
+      <main className="py-10 lg:py-18 px-4 relative">
         <Hero className="pb-10" />
         <Team />
         <History />
