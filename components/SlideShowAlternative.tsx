@@ -20,7 +20,7 @@ export const SlideShowAlternative = ({
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(false);
-  const [loadedImages, setLoadedImages] = useState([]);
+  const [loadedImages, setLoadedImages] = useState<any>([]);
 
   const handleNext = () => {
     setCurrentIndex((prevIndex) =>
