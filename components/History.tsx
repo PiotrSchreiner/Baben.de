@@ -4,7 +4,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-import KeyboardDoubleArrowDownIcon from "@mui/icons-material/KeyboardDoubleArrowDown";
 import { useAnimation, useInView } from "framer-motion";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -51,7 +50,7 @@ export default function History() {
           </div>
           <div className="mt-14 text-2xl tracking-wide text-white text-center px-4 sm:px-44 ">
             {isshowing ? (
-              <p className="bg-gradient-to-tr from-purple-800 to-blue-500 rounded-3xl mx-auto md:mx-56 p-4 md:p-12 tracking-wider leading-8 text-xl shadow-lg shadow-blue-400 text-left [word-break:break-word] hyphens-auto border border-white">
+              <p className="bg-gradient-to-tr from-purple-800 to-blue-500 rounded-3xl mx-auto md:mx-64 xl:mx-96 p-4 md:p-12 tracking-wider leading-8 text-xl shadow-lg shadow-blue-400 text-left [word-break:break-word] hyphens-auto border border-white">
                 {t("history")}
               </p>
             ) : null}
@@ -67,7 +66,7 @@ export default function History() {
               />
             ) : null}
           </div>
-          <div className="flex justify-center ">
+          {/*  <div className="flex justify-center ">
             <div
               onClick={() =>
                 document
@@ -78,7 +77,7 @@ export default function History() {
             >
               <KeyboardDoubleArrowDownIcon className="w-16 h-16 mt-10" />
             </div>
-          </div>
+          </div> */}
           <div className=" md:w-[800px] md:h-full w-[320px] h-[160px] md:my-20 my-12  rounded-3xl justify-center  items-center mx-auto shadow-lg shadow-blue-400 border-white border">
             <Swiper
               id="swiper"
