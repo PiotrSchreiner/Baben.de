@@ -22,7 +22,7 @@ function Impressum() {
   };
 
   return (
-    <div className="relative sm:py-42 py-12 overflow-hidden grid grid-cols-1 lg:grid-cols-3 gap-8 ">
+    <div className="relative sm:py-42 py-12 overflow-hidden grid grid-cols-1 lg:grid-cols-3 gap-8 bg-black/50">
       <div className="text-center text-lg max-w-prose mx-auto col-span-full sm:mt-10">
         <h1 className="text-5xl leading-8 font-extrabold tracking-tight text-white sm:text-5xl">
           Impressum

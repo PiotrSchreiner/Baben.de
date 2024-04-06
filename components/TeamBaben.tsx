@@ -190,7 +190,7 @@ export const useMouseEnter = () => {
   return context;
 };
 
-function TeamBaben({ onSubmit }: { onSubmit: () => void }) {
+function TeamBaben() {
   return (
     <div id="/teambaben" className=" sm:py-22 md:py-10 bg-black/50">
       <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">

@@ -2,19 +2,16 @@
 
 function AGB() {
   return (
-    <div className=" relative py-6 overflow-hidden ">
+    <div className=" relative py-6 overflow-hidden bg-black/50">
       <div className="relative px-4 sm:px-6 lg:px-56">
         <div className="text-lg max-w-prose mx-auto">
           <h1>
-            <span className="lg:mt-12 mt-32 block text-5xl text-center leading-8 font-extrabold tracking-tight text-gray-200 sm:text-5xl">
+            <span className="lg:mt-12 mt-32 block text-5xl text-center leading-8 font-extrabold tracking-tight text-white sm:text-5xl">
               AGB
             </span>
           </h1>
         </div>
-        <div
-          id="2"
-          className="prose prose-indigo prose-lg text-gray-200 mx-auto"
-        >
+        <div id="2" className="prose prose-indigo prose-lg text-white mx-auto">
           <h2 className="text-lg font-semibold leading-8 text-center">
             Allgemeine Geschäftsbedingungen zum Einkauf von Dienst- und
             Werkleistungen der Babendererde GmbH

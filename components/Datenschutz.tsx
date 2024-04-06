@@ -5,19 +5,19 @@
 function Datenschutz() {
   return (
     <div>
-      <div className="relative overflow-hidden ">
+      <div className="relative overflow-hidden bg-black/50">
         <div className="relative px-4 sm:px-6 lg:px-56">
           <div className="text-lg max-w-prose mx-auto">
-            <h1 className="lg:mt-12 mt-36 block lg:text-5xl text-4xl text-center leading-8 font-extrabold tracking-tight text-gray-200 sm:text-5xl">
+            <h1 className="lg:mt-12 mt-36 block lg:text-5xl text-4xl text-center leading-8 font-extrabold tracking-tight text-white sm:text-5xl">
               <span>Datenschutzerklärung</span>
             </h1>
           </div>
           <div
             id="1"
-            className=" prose prose-indigo prose-lg text-gray-200 mx-auto"
+            className=" prose prose-indigo prose-lg text-white mx-auto"
           >
             <p className="text-center">Stand 14.10.2023</p>
-            <h2 className="pt-10 pb-10 text-2xl font-bold leading-8 text-gray-200">
+            <h2 className="pt-10 pb-10 text-2xl font-bold leading-8 text-white">
               I. Verarbeitung der Daten
             </h2>
             <p>

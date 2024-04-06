@@ -32,7 +32,7 @@ export default function Example({ locale }: { locale: string }) {
             {/*             <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600 to-blue-600 rounded-md blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse "></div>
              */}{" "}
             <Link href="/" locale={locale}>
-              <h1 className="tracking-widest isolate font-extrabold text-7xl text-center text-white z-10 mb-8 border-4 border-white rounded-lg p-2 ">
+              <h1 className="tracking-widest isolate font-extrabold text-7xl text-center text-white z-10 mb-8 border-4 border-white rounded-lg p-2 shadow-blue-400 shadow-md">
                 BABEN MEDIA
               </h1>
             </Link>
@@ -56,7 +56,7 @@ export default function Example({ locale }: { locale: string }) {
             <LanguageIcon className="h-8 w-8 md:w-10 md:h-10 z-10" />
           </button>
 
-          <div className="flex flex-1 items-center z-10 pl-4 md:pl-14">
+          <div className="flex flex-1 items-center z-10 pl-8 md:pl-14">
             <DropDownMenu />
           </div>
         </div>
