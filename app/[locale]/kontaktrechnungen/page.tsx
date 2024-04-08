@@ -1,5 +1,6 @@
+"use client";
+
 import KontaktRechnungen from "@/components/KontaktRechnungen";
-import React from "react";
 
 function page() {
   return (

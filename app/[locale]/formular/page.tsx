@@ -1,5 +1,6 @@
+"use client";
+
 import Kontakt from "@/components/Kontakt";
-import React from "react";
 
 function page() {
   return (

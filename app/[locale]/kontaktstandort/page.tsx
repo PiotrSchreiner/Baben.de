@@ -1,5 +1,6 @@
+"use client";
+
 import KontaktStandort from "@/components/KontaktStandort";
-import React from "react";
 
 export default function page() {
   return (

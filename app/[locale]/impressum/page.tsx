@@ -1,5 +1,6 @@
+"use client";
+
 import Impressum from "@/components/Impressum";
-import React from "react";
 
 function page() {
   return (

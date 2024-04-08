@@ -1,5 +1,6 @@
+"use client";
+
 import KontaktSonstiges from "@/components/KontaktSonstiges";
-import React from "react";
 
 function page() {
   return (

@@ -1,3 +1,5 @@
+"use client";
+
 import Lottie from "lottie-react";
 import { useTranslations } from "next-intl";
 import ContactAnimation from "../animAGB.json";
